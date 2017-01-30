@@ -1,0 +1,298 @@
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+}
+
+.blockBar {
+  margin-left: ;
+  margin-right: ;
+}
+
+/* The element at the top of the page right after the fixed navigation bar
+   MUST have sufficient top margin or else it will be covered by the bar */
+.content {
+  margin-top: 20px;
+
+}
+
+
+
+/* Example responsive navigation menu  */
+.fixed-nav-bar li, .fixed-nav-bar a { 
+  height: 50px;
+  line-height: 50px;
+}
+.menu {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.menu a, .menu a:visited {
+  color: #ffffff;
+}
+.menu a:hover, .menu a:target {
+  color: #ebebeb;
+}
+.menu-items {
+  display: inline-block;
+  font-family: 'Didact Gothic', sans-serif;
+}
+.sitename {
+  display: inline-block;
+  margin-right: 39px;
+  margin-left: 0px;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 180%;
+}
+a.sitename, a:visited.sitename {
+  color: #e0e0e0;
+}
+.menu-items li {
+  display: inline-block;
+  margin-right: 26px;
+  margin-left: 10px;
+}
+.menu-items a {
+  text-decoration: none;
+}
+.show, .hide {
+  display: none;
+  padding-left: 15px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center left;
+  color: #dde1e2;
+}
+.show {
+  background-image: url(assets/down-arrow-icon.png);
+}
+.hide {
+  background-image: url(assets/up-arrow-icon.png);
+}
+
+@media only screen and (max-width: 800px) {
+  .menu { 
+    position: relative;
+    width: 100%;
+  }
+  .sitename {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    margin-left: -158px;
+   font-size: 180%;
+  }
+
+  .menu-items {
+    display: none; 
+    width: 100%;
+    margin-top: 50px;
+    background-color: #008378;
+  }
+  .menu-items li {
+    display: block;
+    text-align: center;
+  }
+  .show, .hide {  
+    position: absolute;
+    top: 0;
+    right: 15px;
+  }
+  .show {
+    display: inline-block;
+  }
+  .hide {
+    display: none;
+  }
+  #menu:target .show {
+    display: none;
+  }
+  #menu:target .hide, #menu:target .menu-items {
+    display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 220px) {
+  .sitename, .show, .hide {
+    font-size: 14px;
+  }
+}
+
+body {
+  background-color: grey;
+}
+
+td {
+	height: 400px;
+	width: 400px;
+	position: relative;
+}
+
+table {
+	background-color: #000;
+	padding : 0px;
+	margin: 0px;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    line-height: 0px;
+}
+
+//Pagina 1 
+
+table {
+  line-height: 0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+p {
+vertical-align: bottom;
+
+}
+
+.photoGrid {
+  opacity: 0.6;
+}
+
+.photosGrid {
+	opacity: 0.4;
+
+}
+
+/*
+.on_top {
+	color: white;
+	position: relative;
+	bottom: 50%;
+	text-align: center;
+}*/
+
+.pictureAlign {
+	align-self: center;
+
+}
+
+/* Pagina 2 */
+.photoRecipe {
+  position: absolute;
+  /*left: 0px;*/
+  margin-right: 0px;
+  list-style-type: none;
+
+}
+
+.header {
+  padding-top: 0px;
+}
+
+.headerRecipes {
+margin-top: 0px;
+}
+
+
+.recipes {
+  position: absolute;
+  left :448px;
+  padding-top: 0px;
+  padding-left: 10px;
+  margin-left: 0px
+  right: 0px;
+  list-style-type: none;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 90%;
+
+}
+.boxList {
+  height: 0px;
+  margin-bottom: 402px;
+
+
+}
+
+
+}
+
+/*#listOne {
+  border-style: solid;
+  border-width: 5px;
+  margin-top: 0px;
+  /*margin-bottom: 400px;*/
+
+
+}
+
+/*#listTwo { 
+  border-style: solid;
+  border-width: 5px;
+  /*margin-top: 405px;*/
+}
+
+#listOne {
+  
+}
+
+
+
+/* 
+  position: relative of absolute of fixed of weet ik veel;
+  left: 0px? 100px? 50%? 100%?;
+  right ?
+  bottom ?
+  top: 0px? 100px? 50%? 100%?;
+  margin?   (zoek op box model)
+  padding?  (zoek op box model)
+  wil je responsive? Zo ja, dan moet je waarschijnlijk werken met percentages (bijv. left: 20%)
+  width: 500px? 50%?;
+  height: 50px? 50%?;
+*/ 
+
+/*
+R: 0;
+G: 0;
+B: 0;
+#00f //blauw
+#0f0 //groen
+#f00 //rood
+//geen verfkleuren mengen maar lichtkleuren (additive light model)
+
+1		- 		1
+2		- 		2
+3		- 		3
+4		- 		4
+5		- 		5
+6		- 		6
+7		- 		7
+8		- 		8
+9		- 		9
+a		- 		10
+b		- 		11
+c		- 		12
+d		- 		13
+e		- 		14
+f		- 		15
+10		- 		16
+11
+12
+13
+14
+15
+16
+17
+18
+19
+1a
+1b
+1c
+1d
+1e
+20
+
+*/

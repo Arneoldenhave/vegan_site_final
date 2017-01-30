@@ -1,0 +1,81 @@
+*{
+	font-family: 'Didact Gothic', sans-serif;
+
+}
+
+.row-featurette {
+	background-color: rgba(178, 178, 178, 0.30);
+
+}
+
+
+  img {
+  	vertical-align: middle;
+    max-width: 100% !important;
+  }
+
+ .col-md-5 .col-md-pull-7 {
+ 	display: block;
+ 	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 400px
+ }
+
+.text-muted {
+  color: #777;
+}
+
+.featurette-divider {
+  margin: 80px; /* Space out the Bootstrap <hr> more */
+  margin-left: 10px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+div.col-md-8, .col-md-4 {
+	border-style: dashed;
+	border-color: grey;
+	margin-top: 20px;
+} 
+
+div.col-md-8 {
+	width:500px; /* or whatever width you want. */
+    max-width:500px;
+    float: left;
+}
+
+div.col-md-4 {
+	width:450px; /* or whatever width you want. */
+   max-width:450px; /* or whatever width you want. */
+    margin: auto;
+   font-size: 20px;
+   float: center;
+}
+
+h2 {
+	font-size: 35px;
+	font-family: inherit;
+  	font-weight: 500;
+  	line-height: 1.1;
+  	color: inherit;
+}
+
+p.lead {
+	font-size: 18px;
+	font-weight: 300;
+	text-align: justify;
+}
+
+
+
+.footer {
+  margin-top: 20px;
+  font-size: 20px;
+}
