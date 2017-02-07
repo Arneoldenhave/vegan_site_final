@@ -6977,7 +6977,7 @@ button.close {
     display: table-cell !important;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 767px)op {
   .visible-xs-block {
     display: block !important;
   }
