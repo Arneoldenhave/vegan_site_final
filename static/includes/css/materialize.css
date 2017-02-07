@@ -2630,12 +2630,12 @@ i {
 
 i.left {
   float: left;
-  margin-right: 15px;
+  margin-right: 15px; 
 }
 
 i.right {
   float: right;
-  margin-left: 15px;
+  margin-left: 15px; 
 }
 
 i.tiny {
@@ -2923,7 +2923,7 @@ thead {
 }
 
 td, th {
-  padding: 15px 5px;
+  padding: 0px 0px; /* edited: 15px 5 px; */
   display: table-cell;
   text-align: left;
   vertical-align: middle;

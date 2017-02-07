@@ -4,40 +4,47 @@
 
 	<head>
 		<title>Vegan Mamma Maroeska</title>
-		<link  href="includes/css/custom.css" rel="stylesheet"></link>
+	
 	
 <meta charset="utf-8">
 <title>Fixed Navigation Bar</title>
 <meta name="description" content="An example of a fixed-position(sticky) top navigation bar that remains visible while the user scrolls the page.">
 <meta name="author" content="Six Revisions">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->  
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 <link rel="shortcut icon" href="http://sixrevisions.com/favicon.ico">
 </head>
 <body>
 
-<nav class="fixed-nav-bar">
-  <div id="menu" class="menu">
-    <a class="sitename" href="fixed-navigation-bar.html">Vegan Mamma Maroeska</a>
-    <!-- Example responsive navigation menu  -->
-    <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
-    <ul class="menu-items">
-      <li class="blockBar"><a href="./index.html">Home</a></li>
-      <li class="blockBar"><a href="./pagetwo.html">About</a></li>
-      <li class="blockBar"><a href="./recipes.html">Recipes</a></li>
-      <li class="blockBar"><a href="./bookpage.html">Book</a></li>
-      <li class="blockBar"><a target="_blank" href="https://www.instagram.com/veganmamaroeska/" >Instagram</a></li>
-  </ul>
-  </div>
-</nav>
+   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="includes/css/materialize.css"  media="screen,projection"/>
+        <link  href="includes/css/custom.css" rel="stylesheet"></link>
 
-	</head>
+</head>
+<body>
+   <div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo right">Vegan Mamma Maroeska</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="pagetwo.html">About</a></li>
+        <li><a href="bookpage.html">Book</a></li>
+        <li><a href="spekAndBean.html">This Page</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+
 
 	<body>
 
-
-	<table id="photosgrid" style="width:100%" cellpadding="0" cellspacing="0">
+  <div id='tableFix'>
+	<table id="photosgrid" style="width: 100%" cellpadding="0" cellspacing="0">
   <tr>
    
   </tr>
@@ -76,8 +83,12 @@
     <td><img class="photosGrid" src="images/pudding_yellow.jpg"></td>
   </tr>
 </table>
+</div>
 <script src="includes/js/jquery.js" type="text/javascript"></script>
 <script src="includes/js/js.js" type="text/javascript"></script>
-	</body>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="includes/js/materialize.js"></script>
+
+  </body>
 
 </html>
